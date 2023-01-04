@@ -1,0 +1,32 @@
+.home {
+  padding: 40px 0 104px;
+}
+.home__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 31px;
+}
+
+.home__title {
+  font-family: "GilroyBold", sans-serif;
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 59px;
+  text-align: left;
+}
+
+.home__subtitle {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.home__picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

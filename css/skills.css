@@ -1,11 +1,11 @@
 .skills {
-  padding: 91px 0 110px 0;
+  padding: 91px 0 110px;
 }
 
 .skills__title {
   font-size: 34px;
+  font-weight: 600;
   line-height: 42px;
-  text-align: center;
   text-align: center;
   text-transform: capitalize;
 }
@@ -21,35 +21,21 @@
 .skills__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
-.item {
-  width: 166px;
+.skills__icon {
+  text-align: center;
 }
 
 .item__name {
+  margin: 24px auto 40px;
+  max-width: 80px;
+  height: 27px;
+  font-family: "GilroyBold", sans-serif;
   font-size: 14px;
+  font-weight: 600;
   line-height: 17px;
   text-align: center;
   color: #828282;
-  margin: 23px auto 41px;
-  max-width: 78px;
-  min-height: 34px;
-}
-.item__icon {
-  display: block;
-  height: 88px;
-  margin: 0 auto;
-}
-
-.item__rate {
-  display: flex;
-  justify-content: space-between;
-  margin-top: auto;
-}
-
-.item__star {
-  display: block;
-  width: 26px;
-  height: 26px;
 }

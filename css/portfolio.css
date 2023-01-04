@@ -1,0 +1,45 @@
+.portfolio {
+  padding: 112px 0;
+  background: #f6f6f6;
+}
+
+.portfolio__title {
+  margin-bottom: 47px;
+  font-family: "GilroyBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+figcaption {
+  padding: 42px;
+}
+
+.contacts h2 {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+p {
+  font-family: "GilroyMedium", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 0;
+  font-family: "GilroyBold", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  overflow: visible;
+  color: #ffffff;
+  background: black;
+  border-radius: 30px;
+}

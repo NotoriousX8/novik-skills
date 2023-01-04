@@ -1,4 +1,27 @@
-@import url("./fonts.css");
-@import url("./config.css");
-@import url("./header.css");
-@import url("./skills.css");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #070707;
+  background-color: #ffffff;
+  font-family: "GilroyMedium", sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}

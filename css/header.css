@@ -8,3 +8,17 @@ header nav {
   justify-content: space-between;
   align-items: center;
 }
+
+.header__link {
+  font-family: "GilroyBold", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  color: #828282;
+  transition: 0.3s;
+}
+
+.header__link:hover {
+  color: #070707;
+  transition: 0.3s;
+}
